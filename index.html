@@ -33,26 +33,17 @@
     <h1> Date 22.6.2026 GOLD RATE : 24K 386.000 / 22K:354.000</h1>
     <h1> Date 30.7.2026 Gold Rate : 24kt:375.000 / 22K:380.000</h1>
 
-    <form action="/submit-comment" method="post">
-        <label for="user-comment">Leave A Comment:</label>
-        <br>
-        <textarea id="user-comment" name="comment" rows="5" cols="40" placeholder="Type Your Comment Here..." required></textarea>
-        <br>
-        <button type="submit">Post Comment</button>
 
-        <!-- Comment Section Container -->
-        <div class="comment-container">
-        <h1>Leavea a comment</h1>
-        
-        <!-- Textarea creats the multi-line comment box-->
-        <textarea id="commentInput" placeholder="Write Your Comment Here..."></textarea>
+    <form action="index.php" method="post">
 
-        <!-- Button to trigger the comment function -->
-        <button id="submitBtn" type="button">Post Comment</button>
-        
-        <!-- Container where new comments will appear dynamically -->
-        <div id="commentsDisplay"></div>
-        </div> 
+        <label for="username"></label>
+        <input type="text" id="username"minlenght="5" maxlength="15" required>
+
+        <input type="reset"><br>
+        <input type="submit">
+    </form>    
+
+
         
 
 
