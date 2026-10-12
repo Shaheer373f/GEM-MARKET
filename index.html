@@ -48,6 +48,54 @@
      <!-- The submit button-->
      <button type="submit">post comment</button>
 </form>
+<!DOCTYPE html>
+</html lang="en">
+<head>
+    <style>
+        .comment-box-container {
+            max-width: 500px;
+            margin:  20px 0;
+            font-family: Arial, sans-serif;
+        }
+
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            resize: vertical; /*Allows resizeng only vertically*/
+            box-sizing: border-box;
+        }
+
+        button {
+            margin-top: 10px;
+            background-color: aquamarine;
+            color: blue;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px; 
+            cursor: pointer;
+            font-weight: bold;
+
+        }
+
+        button:hover {
+            background-color: blueviolet;
+        }
+       </style>
+</head>
+<body>
+
+    <div class="comment-box-container">
+        <form>
+            <textarea id="comment" placeholder="join the discussion..."row="4" required></textarea>
+            <button type="submit">Submit Comment</button>
+        </form>
+        </div>
+
+</body> 
+</html>
+
 
 </body>
 </html>
